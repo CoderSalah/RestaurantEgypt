@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Anton', sans-serif !important;
+}
+#menu:hover{
+    color:#295151 !important;
+    background: coral !important;
+}
+.social img{
+    width: 75px;
+    padding: 10px;
+}
+.social img:hover{
+width: 90px;
+}
+@media only screen and (max-width: 500px) and (min-width: 280px){
+.images{
+  height: 300px !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+#main{
+    width:100% !important;
+    height: auto !important;
+    margin: 0 !important;
+}
+#main div{
+    float: none !important;
+    position: none;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 200px !important;
+}
+#main img{
+    float: none !important; 
+    position: none;
+    margin: 0 !important;
+    width: 100% !important; 
+}
+}
